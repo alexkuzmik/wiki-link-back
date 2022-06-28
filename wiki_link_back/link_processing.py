@@ -1,7 +1,7 @@
 import urllib.request
-from urllib.parse import urljoin
 import re
 
+from urllib.parse import urljoin
 
 HREF_PATTERN = 'href[ ]{0,1}=[ ]{0,1}"([^\"]{0,})"'
 
