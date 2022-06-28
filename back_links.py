@@ -2,10 +2,10 @@ import argparse
 import os
 
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from profiling import timeit
-from link_processing import get_wiki_links
-
 from urllib.parse import urljoin
+
+from wiki_link_back.profiling import timeit
+from wiki_link_back.link_processing import get_wiki_links
 
 
 def parse_arguments() -> argparse.Namespace:
